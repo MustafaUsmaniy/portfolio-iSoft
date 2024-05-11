@@ -1,5 +1,10 @@
 <?php
 return [
+    'home' => 'BOSH SAHIFA',
+    'about' => 'MEGAONE HAQIDA',
+    'projects' => 'LOYIHALAR',
+    'pricing' => 'NARXLAR',
+    'clients' => 'MIJOZLAR',
     'contact' => 'ALOQA',
     'title' => 'Veb-studiya dunyoga muvaffaqiyat qozonishga yordam beradi',
     'page' => 'Eng moslashuvchan bir sahifa',
@@ -33,4 +38,11 @@ return [
     'inquiries' => "So'rovlar",
     'work' => 'Dushanba-Juma',
     'time' => '9:00 - 18:00',
+    'touch' => 'Aloqaga chiqamiz',
+    'questions' => 'Savollaringiz bormi?',
+    'name' => 'Ismingiz',
+    'f_email' => 'Elektron pochta',
+    'subject' => 'Mavzu',
+    'message' => 'Xabar',
+    'btn' => 'YUBORMOQ'
 ];

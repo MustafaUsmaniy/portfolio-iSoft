@@ -1,5 +1,10 @@
 <?php
 return [
+    'home' => 'HOME',
+    'about' => 'ABOUT MEGAONE',
+    'projects' => 'PROJECTS',
+    'pricing' =>  'PRICING',
+    'clients' =>  'CLIENTS',
     'contact' => 'CONTACT US',
     'title' => 'A Web Studio helping the world to gain some success',
     'page' => 'Most flexible one page',
@@ -33,4 +38,11 @@ return [
     'inquiries' => 'Inquiries',
     'work' => 'Mon-Fri',
     'time' => '9am to 6pm',
+    'touch' => 'Let\'s Get In Touch',
+    'questions' => 'Do you have any Questions?',
+    'name' => 'Name',
+    'f_email' => 'Email',
+    'subject' => 'Subject',
+    'message' => 'Message',
+    'btn' => 'SUBMIT',
 ];

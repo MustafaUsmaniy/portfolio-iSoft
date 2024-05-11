@@ -12,8 +12,8 @@
                             <div class="container">
                                 <div class="row services-details text-center">
                                     <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2" >
-                                        <p class="sub-heading text-center"><span></span>Most flexible one page</p>
-                                        <h3 class="heading text-center wow slideInDown" data-wow-duration="1s">A Web Studio helping the world to gain some success</h3>
+                                        <p class="sub-heading text-center"><span></span>{{__('words.page')}}</p>
+                                        <h3 class="heading text-center wow slideInDown" data-wow-duration="1s">{{__('words.title')}}</h3>
                                         <p class="detail-text text-center wow slideInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere nisi est, sed ullamcorper nibh volutpat at. In rutrum, metus ut posuere gravida, tellus lacus faucibus lectus, sed cursused eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis malesuada ipsum.</p>
                                     </div>
                                 </div>
@@ -23,7 +23,7 @@
                                             <div class="image-holder">
                                                 <i class="lni-pencil-alt"></i>
                                             </div>
-                                            <h3 class="service-card-heading">Branding Design</h3>
+                                            <h3 class="service-card-heading">{{__('words.design')}}</h3>
                                             <p class="service-card-detail">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit augue diam, accumsan.
                                             </p>
@@ -34,7 +34,7 @@
                                             <div class="image-holder">
                                                 <i class="lni-cog"></i>
                                             </div>
-                                            <h3 class="service-card-heading">SEO Marketing</h3>
+                                            <h3 class="service-card-heading">{{__('words.seo')}}</h3>
                                             <p class="service-card-detail">
                                                 Lorem ipsum dolor sit amet,  consectetur adipiscing elit augue diam, accumsan.
                                             </p>
@@ -45,7 +45,7 @@
                                             <div class="image-holder">
                                                 <i class="lni-code"></i>
                                             </div>
-                                            <h3 class="service-card-heading">Web Development</h3>
+                                            <h3 class="service-card-heading">{{__('words.web')}}</h3>
                                             <p class="service-card-detail">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit augue diam, accumsan.
                                             </p>
@@ -54,8 +54,8 @@
                                 </div>
                                 <div class="row services-details pt-5 text-center">
                                     <div class  ="col-12 pt-5  col-md-10 col-lg-8 offset-md-1 offset-lg-2" >
-                                        <p class="sub-heading text-center"><span></span>Most flexible one page</p>
-                                         <h3 class="heading text-center">A Web Studio helping the world to gain some success</h3>
+                                        <p class="sub-heading text-center"><span></span>{{__('words.page')}}</p>
+                                         <h3 class="heading text-center">{{__('words.title')}}</h3>
                                         <p class="detail-text text-center wow slideInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere nisi est, sed ullamcorper nibh volutpat at. In rutrum, metus ut posuere gravida, tellus lacus faucibus lectus, sed cursused eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis malesuada ipsum.</p>
                                         <!--                                    <button class="btn our-btn rounded-pill">LEARN MORE</button>-->
                                     </div>
@@ -83,8 +83,8 @@
                                         <img src="img/client1.png" class="rounded-circle" alt="client1">
                                     </div>
                                     <div class="client-detail col-12 text-center">
-                                        <h4 class="client-name">Ellizabeth Taylor</h4>
-                                        <p class="client-des">Amazon</p>
+                                        <h4 class="client-name">{{__('words.client')}}</h4>
+                                        <p class="client-des">{{__('words.amazon')}}</p>
                                         <ul class="slider-social client-s-media ">
                                             <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-facebook-f"></i> </a></li>
                                             <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-twitter"></i> </a></li>
@@ -109,8 +109,8 @@
                                         <img src="img/client2.png" class="rounded-circle" alt="client1">
                                     </div>
                                     <div class="client-detail col-12 text-center">
-                                        <h4 class="client-name">Ellizabeth Taylor</h4>
-                                        <p class="client-des">Amazon</p>
+                                        <h4 class="client-name">{{__('words.client')}}</h4>
+                                        <p class="client-des">{{__('words.amazon')}}</p>
                                         <ul class="slider-social client-s-media ">
                                             <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-facebook-f"></i> </a></li>
                                             <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-twitter"></i> </a></li>
@@ -132,8 +132,8 @@
                                         <img src="img/client3.jpg" class="rounded-circle" alt="client1">
                                     </div>
                                     <div class="client-detail col-12 text-center">
-                                         <h4 class="client-name">Ellizabeth Taylor</h4>
-                                        <p class="client-des">Amazon</p>
+                                         <h4 class="client-name">{{__('words.client')}}</h4>
+                                        <p class="client-des">{{__('words.amazon')}}</p>
                                         <ul class="slider-social client-s-media ">
                                             <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-facebook-f"></i> </a></li>
                                             <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-twitter"></i> </a></li>
@@ -161,7 +161,7 @@
                                             <div class="col-10 offset-1">
     <!--                                            <span class="contact-sub-heading">Lorem ipsum dolor sit amet consectetur</span>-->
     <!--                                            <h4 class="contact-heading">MegaOne Office</h4>-->
-                                                <p class="contact-address">123 Street New York City , United States Of America.</p>
+                                                <p class="contact-address">{{__('words.address')}}</p>
     <!--                                            <ul class="contact-list">-->
     <!--                                                <li><span>Office Telephone :</span> 001 01085379709</li>-->
     <!--                                                <li><span>Mobile :</span> 001 63165370895</li>-->

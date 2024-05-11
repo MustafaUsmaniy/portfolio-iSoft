@@ -77,28 +77,27 @@
                             <ul class="nav-menu nav-fill">
                                 <li class="nav-item"><span>0</span>
                                     <p class="count1" data-count="1">1</p><span>.</span><a class="nav-link"
-                                        href="#home">HOME<span class="active"></span></a>
+                                        href="#home">{{__('words.home')}}<span class="active"></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count2" data-count="2">2</p><span>.</span><a class="nav-link"
-                                        href="#services-sec">ABOUT MEGAONE<span></span></a>
+                                        href="#services-sec">{{__('words.about')}}<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count3" data-count="3">3</p><span>.</span><a class="nav-link"
-                                        href="#project-sec">PROJECTS<span></span></a>
+                                        href="#project-sec">{{__('words.projects')}}<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count5" data-count="4">4</p><span>.</span><a class="nav-link"
-                                        href="#pricing-sec">PRICING<span></span></a>
+                                        href="#pricing-sec">{{__('words.pricing')}}<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count4" data-count="5">5</p><span>.</span><a class="nav-link"
-                                        href="#client-sec">CLIENTS<span></span></a>
+                                        href="#client-sec">{{__('words.clients')}}<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count6" data-count="6">6</p><span>.</span><a class="nav-link"
-                                        href="#contact-us-sec">CONTACT
-                                        US<span></span></a>
+                                        href="#contact-us-sec">{{__('words.contact')}}<span></span></a>
                                 </li>
                             </ul>
                             <div class="slider-social side-icons cursor-light">

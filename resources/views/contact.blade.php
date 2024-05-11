@@ -10,16 +10,16 @@
         <div class="container">
             <div class="row contact-details pb-3 text-center">
                 <div class="col-12">
-                    <p class="sub-heading text-center"><span></span>Most flexible one page</p>
+                    <p class="sub-heading text-center"><span></span>{{__('words.page')}}</p>
                     <!--                                    <span class="contact-sub-heading">Lorem ipsum dolor sit amet consectetur</span>-->
-                    <h4 class="main-heading">Let's Get In Touch</h4>
+                    <h4 class="main-heading">{{__('words.touch')}}</h4>
                     <!--                                    <p class="contact-address">123 Street New York City , United States Of America.</p>-->
                     <ul class="contact-list">
-                        <li><span>Office Telephone :</span> 001 01085379709</li>
-                        <li><span>Mobile :</span> 001 63165370895</li>
+                        <li><span>{{__('words.office_phone')}}:</span> 001 01085379709</li>
+                        <li><span>{{__('words.mobile')}}:</span> 001 63165370895</li>
                         <li><span>Email :</span> admin@website.com</li>
-                        <li><span>Inquiries :</span> email@website.com</li>
-                        <li><span>Mon-Fri:</span> 9am to 6pm</li>
+                        <li><span>{{__('words.inquiries')}}:</span> email@website.com</li>
+                        <li><span>{{__('words.work')}}:</span>{{__('words.time')}}</li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +32,7 @@
             <div class="row services-details text-center">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
                     <p class="sub-heading text-center"><span></span>Contact Form</p>
-                    <h4 class="main-heading">Do you have any Questions?</h4>
+                    <h4 class="main-heading">{{__('words.questions')}}</h4>
                     <form class="contact-form" id="contact-form-data">
                         <div class="row my-form">
                             <div class="col-md-12 col-sm-12 mb-1">
@@ -40,23 +40,23 @@
                             </div>
                             <div class="col-12 col-md-4">
                                 <input type="text" class="form-control" id="candidate_name" name="userName"
-                                    placeholder="Name" required="required">
+                                    placeholder="{{__('words.name')}}" required="required">
                             </div>
                             <div class="col-12 col-md-4">
                                 <input type="email" class="form-control" id="user_email" name="userEmail"
-                                    placeholder="Email" required="required">
+                                    placeholder="{{__('words.f_email')}}" required="required">
                             </div>
                             <div class="col-12 col-md-4">
                                 <input type="text" class="form-control" id="user_subject" name="userSubject"
-                                    placeholder="Subject" required="required">
+                                    placeholder="{{__('words.subject')}}" required="required">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control" id="user_message" name="userMessage" placeholder="Message" rows="7"
+                                <textarea class="form-control" id="user_message" name="userMessage" placeholder="{{__('words.message')}}" rows="7"
                                     required="required"></textarea>
                             </div>
                             <div class="col-12 text-center">
-                                <button class="btn our-btn rounded-pill user-contact contact_btn"
-                                    type="button">SUBMIT</button>
+                                <button class="btn our-btn rounded-pill user-contact contact_btn mt-5"
+                                    type="button">{{__('words.btn')}}</button>
                             </div>
                         </div>
                     </form>
@@ -72,7 +72,7 @@
                 <div class="col-12 contact-details text-center">
                     <div class="row no-gutters">
                         <div class="col-10 offset-1">
-                            <p class="contact-address">123 Street New York City , United States Of America.</p>
+                            <p class="contact-address">{{__('words.address')}}</p>
                             <ul class="slider-social contact-s-media page-footer">
                                 <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
                                             class="fab fa-facebook-f"></i> </a> </li>

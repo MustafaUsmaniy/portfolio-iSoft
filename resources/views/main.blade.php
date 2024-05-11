@@ -463,7 +463,7 @@
                     <h4 class="pricing-card-heading">{{__('words.standart')}}</h4>
                     <p class="pricing-card-text">Click edit button to change this text. Lorem
                         dolor sit amet, consectetur adipiscing elit.</p>
-                    <h3 class="pricing-amount"><i class="lni-dollar"></i>56<span>/ Month</span></h3>
+                    <h3 class="pricing-amount"><i class="lni-dollar"></i>56<span>/ {{__('words.month')}}</span></h3>
                     <ul class="pricing-features">
                         <li>{{__('words.access')}}</li>
                         <li>{{__('words.limit')}}</li>
@@ -476,7 +476,7 @@
                     <h4 class="pricing-card-heading">{{__('words.premium')}}</h4>
                     <p class="pricing-card-text">Click edit button to change this text. Lorem
                         dolor sit amet, consectetur adipiscing elit.</p>
-                    <h3 class="pricing-amount"><i class="lni-dollar"></i>89<span>/ Month</span></h3>
+                    <h3 class="pricing-amount"><i class="lni-dollar"></i>89<span>/ {{__('words.month')}}</span></h3>
                     <ul class="pricing-features">
                         <li>{{__('words.access')}}</li>
                         <li>{{__('words.limit')}}</li>
