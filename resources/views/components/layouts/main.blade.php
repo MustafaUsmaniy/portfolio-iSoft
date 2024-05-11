@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <!-- Meta Tags -->
@@ -15,6 +15,9 @@
         content="Creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, studio, masonry, grid, faq">
     <!-- Page Title -->
     <title>Portfolio | MegaOne HTML5 Template</title>
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- Favicon -->
     <link rel="icon" href="portfolio/img/favicon.ico">
     <!-- Bundle -->
@@ -74,19 +77,19 @@
                             <ul class="nav-menu nav-fill">
                                 <li class="nav-item"><span>0</span>
                                     <p class="count1" data-count="1">1</p><span>.</span><a class="nav-link"
-                                        href="/#home">HOME<span class="active"></span></a>
+                                        href="#home">HOME<span class="active"></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count2" data-count="2">2</p><span>.</span><a class="nav-link"
-                                        href="/#services-sec">ABOUT MEGAONE<span></span></a>
+                                        href="#services-sec">ABOUT MEGAONE<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count3" data-count="3">3</p><span>.</span><a class="nav-link"
-                                        href="/#project-sec">PROJECTS<span></span></a>
+                                        href="#project-sec">PROJECTS<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count5" data-count="4">4</p><span>.</span><a class="nav-link"
-                                        href="/#pricing-sec">PRICING<span></span></a>
+                                        href="#pricing-sec">PRICING<span></span></a>
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count4" data-count="5">5</p><span>.</span><a class="nav-link"
@@ -94,7 +97,7 @@
                                 </li>
                                 <li class="nav-item"><span>0</span>
                                     <p class="count6" data-count="6">6</p><span>.</span><a class="nav-link"
-                                        href="/#contact-us-sec">CONTACT
+                                        href="#contact-us-sec">CONTACT
                                         US<span></span></a>
                                 </li>
                             </ul>
@@ -129,10 +132,20 @@
                             </div>
                             <a class="navbar-brand ml-auto mr-auto" href="/">
                                 <img src="portfolio/img/logo.png" alt="images" style="height: 100%;width: 100%;" />
+                                <h1>{{app()->getLocale()}}</h1>
                             </a>
                             <!--Slider Social-->
                             <div class="slider-social d-none d-md-block">
                                 <ul class="list-unstyled">
+                                    <li class="animated-wrap">
+                                        <a class="animated-element" href="/lang/uz">uz</a>
+                                    </li>
+                                    <li class="animated-wrap">
+                                        <a class="animated-element" href="/lang/ru">ru</a>
+                                        </li>
+                                    <li class="animated-wrap">
+                                        <a class="animated-element" href="/lang/en">en</a>
+                                        </li>
                                     <li class="animated-wrap"><a class="animated-element"
                                             href="javascript:void(0);"><i class="fab fa-facebook-f"
                                                 aria-hidden="true"></i></a></li>
@@ -187,8 +200,9 @@
                                             href="#client-sec">CLIENTS<span></span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <span>06.</span><a class="nav-link" href="#contact-us-sec">CONTACT
-                                            US<span></span></a>
+                                        <span>06.</span><a class="nav-link" href="#contact-us-sec">
+                                            {{__('words.contact')}}
+                                            <span></span></a>
                                     </li>
                                 </ul>
                                 <div class="social-icons">
