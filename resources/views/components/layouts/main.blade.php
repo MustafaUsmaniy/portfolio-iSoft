@@ -18,8 +18,11 @@
     <!-- TailwindCSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Fonawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <!-- Favicon -->
-    <link rel="icon" href="portfolio/img/favicon.ico">
+    <link rel="icon" href="/portfolio/img/fav1.png">
     <!-- Bundle -->
     <link rel="stylesheet" href="vendor/css/bundle.min.css">
     <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
@@ -157,6 +160,9 @@
                                     <li class="animated-wrap"><a class="animated-element"
                                             href="javascript:void(0);"><i class="fab fa-instagram"
                                                 aria-hidden="true"></i></a></li>
+                                    <li class="animated-wrap"><a class="animated-element"
+                                            href="{{route('login')}}"><i class="fa-solid fa-user"
+                                                aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                             <!--Cursor-->
@@ -179,24 +185,26 @@
                                 </a>
                                 <ul class="nav-menu nav-fill">
                                     <li class="nav-item">
-                                        <span>01.</span><a class="nav-link" href="#portfolio-sec">HOME<span
-                                                class="active"></span></a>
+                                        <span>01.</span><a class="nav-link" href="#portfolio-sec">
+                                            {{__('words.home')}}
+                                        <span class="active"></span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <span>02.</span><a class="nav-link" href="#services-sec">ABOUT
-                                            MEGAONE<span></span></a>
+                                        <span>02.</span><a class="nav-link" href="#services-sec">
+                                            {{__('words.about')}}
+                                        <span></span></a>
                                     </li>
                                     <li class="nav-item">
                                         <span>03.</span><a class="nav-link"
-                                            href="#project-sec">PROJECTS<span></span></a>
+                                            href="#project-sec">{{__('words.projects')}}<span></span></a>
                                     </li>
                                     <li class="nav-item">
                                         <span>04.</span><a class="nav-link"
-                                            href="#pricing-sec">PRICING<span></span></a>
+                                            href="#pricing-sec">{{__('words.pricing')}}<span></span></a>
                                     </li>
                                     <li class="nav-item">
                                         <span>05.</span><a class="nav-link"
-                                            href="#client-sec">CLIENTS<span></span></a>
+                                            href="#client-sec">{{__('words.clients')}}<span></span></a>
                                     </li>
                                     <li class="nav-item">
                                         <span>06.</span><a class="nav-link" href="#contact-us-sec">
@@ -210,8 +218,8 @@
                                     <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
                                     <span><a href="#"><i class="fab fa-instagram"></i></a></span>
                                 </div>
-                                <p class="rites-res"><span class="d-block">© 2020 MegaOne.</span> Made with love by
-                                    Themes Industry</p>
+                                <p class="rites-res"><span class="d-block">© 2020 MegaOne.</span> 
+                                    Made with love by Themes Industry</p>
 
                             </nav>
                         </div>
