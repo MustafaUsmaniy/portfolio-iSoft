@@ -1,10 +1,8 @@
 <x-layouts.main>
     <!-- Portfolio content start-->
     <div id="portfolio-sec" class="portfolio-sec">
-
         <div class="portfolio owl-carousel owl-theme">
             <!-- item 1 -> owl carousel-->
-
             <div class="item my-item">
                 <div class="row no-gutters">
                     <div class="col-12">
@@ -199,7 +197,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!-- Portfolio content start-->
 
@@ -208,13 +205,13 @@
         <div class="container">
             <div class="row services-details text-center">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
-                    <p class="sub-heading text-center"><span></span>{{__('words.page')}}</p>
-                    <h3 class="heading text-center">{{__('words.title')}}</h3>
+                    <p class="sub-heading text-center"><span></span>{{ __('words.page') }}</p>
+                    <h3 class="heading text-center">{{ __('words.title') }}</h3>
                     <p class="detail-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                         posuere nisi est, sed ullamcorper nibh volutpat at. In rutrum, metus ut posuere gravida, tellus
                         lacus faucibus lectus, sed cursused eros ligula non odio. Suspendisse volutpat sagittis sapien.
                         Curabitur quis malesuada ipsum.</p>
-                    <a class="btn our-btn rounded-pill" href="detail">{{__('words.button')}}</a>
+                    <a class="btn our-btn rounded-pill" href="detail">{{ __('words.button') }}</a>
                 </div>
             </div>
             <div class="row our-services">
@@ -224,7 +221,7 @@
                             <div class="image-holder">
                                 <i class="lni-pencil-alt"></i>
                             </div>
-                            <h3 class="service-card-heading">{{__('words.design')}}</h3>
+                            <h3 class="service-card-heading">{{ __('words.design') }}</h3>
                             <p class="service-card-detail">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit augue diam, accumsan.
                             </p>
@@ -238,7 +235,7 @@
                             <div class="image-holder">
                                 <i class="lni-cog"></i>
                             </div>
-                            <h3 class="service-card-heading">{{__('words.seo')}}</h3>
+                            <h3 class="service-card-heading">{{ __('words.seo') }}</h3>
                             <p class="service-card-detail">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit augue diam, accumsan.
                             </p>
@@ -251,7 +248,7 @@
                             <div class="image-holder">
                                 <i class="lni-code"></i>
                             </div>
-                            <h3 class="service-card-heading">{{__('words.web')}}</h3>
+                            <h3 class="service-card-heading">{{ __('words.web') }}</h3>
                             <p class="service-card-detail">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit augue diam, accumsan.
                             </p>
@@ -269,8 +266,8 @@
             <div class="col-12 col-lg-6 skill-detail center-block wow fadeInLeft" data-wow-duration="2s">
                 <div class="row no-gutters">
                     <div class="col-12 col-md-10 offset-md-1">
-                        <p class="sub-heading"><span></span>{{__('words.page')}}</p>
-                        <h4 class="heading">{{__('words.skill')}}</h4>
+                        <p class="sub-heading"><span></span>{{ __('words.page') }}</p>
+                        <h4 class="heading">{{ __('words.skill') }}</h4>
                         <p class="skill-detail-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere nisi est, sed
                             ullamcorper nibh volutpat at. In rutrum, metus ut posuere gravida, tellus lacus faucibus
@@ -282,7 +279,7 @@
 
                                 <!--Progress Bar-->
                                 <li class="progress-item">
-                                    <h6>{{__('words.coding')}}</h6>
+                                    <h6>{{ __('words.coding') }}</h6>
                                     <div class="progress bar rounded-pill" data-width="79%">
                                         <div class="progress-bar rounded-pill bg-warning bar-inner"
                                             role="progressbar"> <span>79%</span></div>
@@ -290,7 +287,7 @@
                                 </li>
                                 <!--Progress Bar-->
                                 <li class="progress-item">
-                                    <h6>{{__('words.accuracy')}}</h6>
+                                    <h6>{{ __('words.accuracy') }}</h6>
                                     <div class="progress bar rounded-pill" data-width="95%">
                                         <div class="progress-bar rounded-pill bg-warning bar-inner"
                                             role="progressbar"><span>95%</span></div>
@@ -298,7 +295,7 @@
                                 </li>
                                 <!--Progress Bar-->
                                 <li class="progress-item">
-                                    <h6>{{__('words.planning')}}</h6>
+                                    <h6>{{ __('words.planning') }}</h6>
                                     <div class="progress bar rounded-pill" data-width="87%">
                                         <div class="progress-bar rounded-pill bg-warning bar-inner"
                                             role="progressbar"><span>87%</span></div>
@@ -308,7 +305,7 @@
 
                             </ul>
                         </div>
-                        <a class="btn our-btn rounded-pill" href="/contact">{{__('words.button')}}</a>
+                        <a class="btn our-btn rounded-pill" href="/contact">{{ __('words.button') }}</a>
                     </div>
                 </div>
             </div>
@@ -328,8 +325,8 @@
             <div class="row">
                 <div class="col-12 text-center wow zoomIn" data-wow-duration="1s">
                     <i class="fas fa-quote-left text-left"></i>
-                    <p class="qoute">{{__('words.status')}}</p>
-                    <span class="writer">{{__('words.author')}}</span>
+                    <p class="qoute">{{ __('words.status') }}</p>
+                    <span class="writer">{{ __('words.author') }}</span>
                     <i class="fas fa-quote-right"></i>
                 </div>
             </div>
@@ -347,14 +344,14 @@
                 <div class="project-detail text-center text-lg-left order-2">
                     <div class="row no-gutters">
                         <div class="col-10 col-lg-4 offset-1 animate-box">
-                            <p class="project-sub-heading"><span></span>{{__('words.page')}}</p>
-                            <h6 class="project-heading">{{__('words.bicycle')}}</h6>
+                            <p class="project-sub-heading"><span></span>{{ __('words.page') }}</p>
+                            <h6 class="project-heading">{{ __('words.bicycle') }}</h6>
                             <p class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere
                                 nisi est, sed ullamcorper nibh volutpat at. In rutrum, tellus lacus faucibus lectus, sed
                                 cursus eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis
                                 malesuada ipsum.</p>
                             <button class="btn our-t-btn rounded-pill">
-                                {{__('words.project')}}
+                                {{ __('words.project') }}
                             </button>
                         </div>
                     </div>
@@ -367,15 +364,15 @@
                 <div class="project-detail text-center text-lg-left order-2">
                     <div class="row no-gutters">
                         <div class="col-10 col-lg-4 offset-1 animate-fade">
-                            <p class="project-sub-heading"><span></span>{{__('words.page')}}</p>
-                            <h6 class="project-heading color-black">{{__('words.bicycle')}}
+                            <p class="project-sub-heading"><span></span>{{ __('words.page') }}</p>
+                            <h6 class="project-heading color-black">{{ __('words.bicycle') }}
                             </h6>
                             <p class="project-text color-black">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Ut posuere nisi est, sed ullamcorper nibh volutpat at. In rutrum,tellus lacus
                                 faucibus lectus, sed cursus eros ligula non odio. Suspendisse volutpat sagittis sapien.
                                 Curabitur quis malesuada ipsum.</p>
                             <button class="btn our-t-btn rounded-pill">
-                                {{__('words.project')}}
+                                {{ __('words.project') }}
                             </button>
                         </div>
                     </div>
@@ -389,14 +386,14 @@
                     <div class="row no-gutters">
                         <div class="col-10 col-lg-4 offset-1 animate-in">
                             <p class="project-sub-heading color-black"><span class="bg-black"
-                                    style="background-color:black;"></span>{{__('words.page')}}</p>
-                            <h6 class="project-heading">{{__('words.bicycle')}}</h6>
+                                    style="background-color:black;"></span>{{ __('words.page') }}</p>
+                            <h6 class="project-heading">{{ __('words.bicycle') }}</h6>
                             <p class="project-text text-onblue-bg">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Ut posuere nisi est, sed ullamcorper nibh volutpat at. In rutrum,tellus lacus
                                 faucibus lectus, sed cursus eros ligula non odio. Suspendisse volutpat sagittis sapien.
                                 Curabitur quis malesuada ipsum.</p>
                             <button class="btn our-black-btn rounded-pill bg-black">
-                                {{__('words.project')}}
+                                {{ __('words.project') }}
                             </button>
                         </div>
                     </div>
@@ -409,15 +406,15 @@
                 <div class="project-detail text-center text-lg-left order-2">
                     <div class="row no-gutters">
                         <div class="col-10 col-lg-4 offset-1 animate-roll">
-                            <p class="project-sub-heading"><span></span>{{__('words.page')}}</p>
-                            <h6 class="project-heading color-black">{{__('words.bicycle')}}
+                            <p class="project-sub-heading"><span></span>{{ __('words.page') }}</p>
+                            <h6 class="project-heading color-black">{{ __('words.bicycle') }}
                             </h6>
                             <p class="project-text color-black">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Ut posuere nisi est, sed ullamcorper nibh volutpat at. In rutrum, tellus lacus
                                 faucibus lectus, sed cursus eros ligula non odio. Suspendisse volutpat sagittis sapien.
                                 Curabitur quis malesuada ipsum.</p>
                             <button class="btn our-t-btn rounded-pill">
-                                {{__('words.project')}}
+                                {{ __('words.project') }}
                             </button>
                         </div>
                     </div>
@@ -436,8 +433,8 @@
         <div class="container">
             <div class="row">
                 <div class="pricing-details col-10 offset-1 col-lg-8 offset-lg-2 text-center">
-                    <p class="pricing-sub-heading"><span></span>{{__('words.page')}}</p>
-                    <h4 class="pricing-heading">{{__('words.price')}}</h4>
+                    <p class="pricing-sub-heading"><span></span>{{ __('words.page') }}</p>
+                    <h4 class="pricing-heading">{{ __('words.price') }}</h4>
                     <p class="pricing-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere nisi
                         est, sed ullamcorper nibh volutpat at. In rutrum, metus ut posuere gravida, tellus lacus
                         faucibus lectus, sed cursus eros ligula non odio. Suspendisse volutpat sagittis sapien.
@@ -446,44 +443,47 @@
             </div>
             <div class="row price-cards pb-5 pb-md-0">
                 <div class="pricing-card col-12 col-lg-4 text-center">
-                    <h4 class="pricing-card-heading">{{__('words.startup')}}</h4>
+                    <h4 class="pricing-card-heading">{{ __('words.startup') }}</h4>
                     <p class="pricing-card-text">Click edit button to change this text. Lorem
                         dolor sit amet, consectetur adipiscing elit.</p>
-                    <h3 class="pricing-amount"><i class="lni-dollar"></i>19<span>/ {{__('words.month')}}</span></h3>
+                    <h3 class="pricing-amount"><i class="lni-dollar"></i>19<span>/ {{ __('words.month') }}</span>
+                    </h3>
                     <ul class="pricing-features">
-                        <li>{{__('words.access')}}</li>
-                        <li>{{__('words.limit')}}</li>
-                        <li>{{__('words.email')}}</li>
-                        <li>{{__('words.fork')}}</li>
+                        <li>{{ __('words.access') }}</li>
+                        <li>{{ __('words.limit') }}</li>
+                        <li>{{ __('words.email') }}</li>
+                        <li>{{ __('words.fork') }}</li>
                     </ul>
-                    <button class="btn pricing-btn rounded-pill">{{__('words.button')}}</button>
+                    <button class="btn pricing-btn rounded-pill">{{ __('words.button') }}</button>
                 </div>
                 <div class="pricing-card active col-12 col-lg-4 text-center wow fadeInUp" data-wow-duration="2s"
                     data-wow-delay=".1s">
-                    <h4 class="pricing-card-heading">{{__('words.standart')}}</h4>
+                    <h4 class="pricing-card-heading">{{ __('words.standart') }}</h4>
                     <p class="pricing-card-text">Click edit button to change this text. Lorem
                         dolor sit amet, consectetur adipiscing elit.</p>
-                    <h3 class="pricing-amount"><i class="lni-dollar"></i>56<span>/ {{__('words.month')}}</span></h3>
+                    <h3 class="pricing-amount"><i class="lni-dollar"></i>56<span>/ {{ __('words.month') }}</span>
+                    </h3>
                     <ul class="pricing-features">
-                        <li>{{__('words.access')}}</li>
-                        <li>{{__('words.limit')}}</li>
-                        <li>{{__('words.email')}}</li>
-                        <li>{{__('words.fork')}}</li>
+                        <li>{{ __('words.access') }}</li>
+                        <li>{{ __('words.limit') }}</li>
+                        <li>{{ __('words.email') }}</li>
+                        <li>{{ __('words.fork') }}</li>
                     </ul>
-                    <button class="btn pricing-btn rounded-pill">{{__('words.button')}}</button>
+                    <button class="btn pricing-btn rounded-pill">{{ __('words.button') }}</button>
                 </div>
                 <div class="pricing-card col-12 col-lg-4 text-center">
-                    <h4 class="pricing-card-heading">{{__('words.premium')}}</h4>
+                    <h4 class="pricing-card-heading">{{ __('words.premium') }}</h4>
                     <p class="pricing-card-text">Click edit button to change this text. Lorem
                         dolor sit amet, consectetur adipiscing elit.</p>
-                    <h3 class="pricing-amount"><i class="lni-dollar"></i>89<span>/ {{__('words.month')}}</span></h3>
+                    <h3 class="pricing-amount"><i class="lni-dollar"></i>89<span>/ {{ __('words.month') }}</span>
+                    </h3>
                     <ul class="pricing-features">
-                        <li>{{__('words.access')}}</li>
-                        <li>{{__('words.limit')}}</li>
-                        <li>{{__('words.email')}}</li>
-                        <li>{{__('words.fork')}}</li>
+                        <li>{{ __('words.access') }}</li>
+                        <li>{{ __('words.limit') }}</li>
+                        <li>{{ __('words.email') }}</li>
+                        <li>{{ __('words.fork') }}</li>
                     </ul>
-                    <button class="btn pricing-btn rounded-pill">{{__('words.button')}}</button>
+                    <button class="btn pricing-btn rounded-pill">{{ __('words.button') }}</button>
                 </div>
             </div>
         </div>
@@ -512,8 +512,8 @@
                     <img src="portfolio/img/client1.png" class="rounded-circle" alt="client1">
                 </div>
                 <div class="client-detail col-12 text-center">
-                    <h4 class="client-name">{{__('words.client')}}</h4>
-                    <p class="client-des">{{__('words.amazon')}}</p>
+                    <h4 class="client-name">{{ __('words.client') }}</h4>
+                    <p class="client-des">{{ __('words.amazon') }}</p>
                     <ul class="slider-social client-s-media ">
                         <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
                                     class="fab fa-facebook-f"></i> </a></li>
@@ -541,8 +541,8 @@
                     <img src="portfolio/img/client2.png" class="rounded-circle" alt="client1">
                 </div>
                 <div class="client-detail col-12 text-center">
-                    <h4 class="client-name">{{__('words.client')}}</h4>
-                    <p class="client-des">{{__('words.amazon')}}</p>
+                    <h4 class="client-name">{{ __('words.client') }}</h4>
+                    <p class="client-des">{{ __('words.amazon') }}</p>
                     <ul class="slider-social client-s-media ">
                         <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
                                     class="fab fa-facebook-f"></i> </a></li>
@@ -570,8 +570,8 @@
                     <img src="portfolio/img/client3.jpg" class="rounded-circle" alt="client1">
                 </div>
                 <div class="client-detail col-12 text-center">
-                    <h4 class="client-name">{{__('words.client')}}</h4>
-                    <p class="client-des">{{__('words.amazon')}}</p>
+                    <h4 class="client-name">{{ __('words.client') }}</h4>
+                    <p class="client-des">{{ __('words.amazon') }}</p>
                     <ul class="slider-social client-s-media">
                         <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i
                                     class="fab fa-facebook-f"></i> </a></li>
@@ -601,14 +601,14 @@
                     <div class="row no-gutters">
                         <div class="col-10 offset-1 wow fadeInLeft" data-wow-duration="2s">
                             <span class="contact-sub-heading">Lorem ipsum dolor sit amet consectetur</span>
-                            <h4 class="contact-heading">{{__('words.off_name')}}</h4>
-                            <p class="contact-address">{{__('words.address')}}</p>
+                            <h4 class="contact-heading">{{ __('words.off_name') }}</h4>
+                            <p class="contact-address">{{ __('words.address') }}</p>
                             <ul class="contact-list">
-                                <li><span>{{__('words.office_phone')}}:</span> 001 01085379709</li>
-                                <li><span>{{__('words.mobile')}}:</span> 001 63165370895</li>
+                                <li><span>{{ __('words.office_phone') }}:</span> 001 01085379709</li>
+                                <li><span>{{ __('words.mobile') }}:</span> 001 63165370895</li>
                                 <li><span>Email :</span> admin@website.com</li>
-                                <li><span>{{__('words.inquiries')}}:</span> email@website.com</li>
-                                <li><span>{{__('words.work')}}:</span> {{__('words.time')}}</li>
+                                <li><span>{{ __('words.inquiries') }}:</span> email@website.com</li>
+                                <li><span>{{ __('words.work') }}:</span> {{ __('words.time') }}</li>
                             </ul>
                             <ul class="slider-social contact-s-media">
                                 <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i

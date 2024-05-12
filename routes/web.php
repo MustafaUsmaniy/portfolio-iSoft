@@ -14,6 +14,12 @@ Route::get('/lang/{lang}', function($lang){
     return back();
 });
 
+Route::get('morphic1', function () {
+    return view('morphic-window1.blade.php');
+})->name('morphic');
+
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
