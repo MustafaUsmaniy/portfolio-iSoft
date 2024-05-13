@@ -9,7 +9,7 @@
                         <div class="col-12">
                             <div class="hover1">
                                 <a class="info" onclick="morphic_window('morphic-window1');">
-                                    <img src="{{ asset('storage/'.$post->photo) }}" alt="images">
+                                    <img src="{{asset('storage/'.$post->photo)}}" alt="images">
                                     <div class="box-content">
                                         <i class="lni-image"></i>
                                         <h3 class="title">Williamson</h3>
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                     @endforeach
-                    <div class="col-12">
+                    {{-- <div class="col-12">
                         <div class="hover1">
                             <a class="info" onclick="morphic_window('morphic-window2');">
                                 <img src="portfolio/img/p6.png" alt="images">
@@ -40,11 +40,11 @@
                             </a>
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <!-- item 2 -> owl carousel-->
-            <div class="item my-item">
+            {{-- <div class="item my-item">
                 <div class="row no-gutters">
                     <div class="col-12">
                         <div class="hover1">
@@ -80,9 +80,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- item 3 -> owl carousel-->
-            <div class="item my-item">
+            {{-- <div class="item my-item">
                 <div class="row no-gutters">
                     <div class="col-12">
                         <div class="hover1">
@@ -121,9 +121,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- item 4 -> owl carousel-->
-            <div class="item my-item">
+            {{-- <div class="item my-item">
                 <div class="row no-gutters">
                     <div class="col-12">
                         <div class="hover1">
@@ -159,9 +159,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- item 5 -> owl carousel-->
-            <div class="item my-item">
+            {{-- <div class="item my-item">
                 <div class="row no-gutters">
                     <div class="col-12">
                         <div class="hover1">
@@ -197,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <!-- Portfolio content start-->
@@ -633,6 +633,7 @@
             </div>
         </div>
     </div>
+    
     <div class="aimated-cursor">
         <div class="cursor">
             <div class="cursor-loader"></div>
