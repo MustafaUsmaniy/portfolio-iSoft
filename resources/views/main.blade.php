@@ -5,17 +5,19 @@
             <!-- item 1 -> owl carousel-->
             <div class="item my-item">
                 <div class="row no-gutters">
-                    <div class="col-12">
-                        <div class="hover1">
-                            <a class="info" onclick="morphic_window('morphic-window1');">
-                                <img src="portfolio/img/p1.png" alt="images">
-                                <div class="box-content">
-                                    <i class="lni-image"></i>
-                                    <h3 class="title">Williamson</h3>
-                                </div>
-                            </a>
+                    @foreach ($posts as $post)
+                        <div class="col-12">
+                            <div class="hover1">
+                                <a class="info" onclick="morphic_window('morphic-window1');">
+                                    <img src="{{ asset('storage/'.$post->photo) }}" alt="images">
+                                    <div class="box-content">
+                                        <i class="lni-image"></i>
+                                        <h3 class="title">Williamson</h3>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    @endforeach
                     <div class="col-12">
                         <div class="hover1">
                             <a class="info" onclick="morphic_window('morphic-window2');">
